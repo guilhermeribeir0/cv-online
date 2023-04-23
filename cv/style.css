@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.column-left {
+  width: 30%;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+.column-right {
+  width: 60%;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
